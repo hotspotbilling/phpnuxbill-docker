@@ -1,6 +1,6 @@
-version: "2.1"
+version: "2.3"
 services:
-  mikhmon:
+  phpnuxbill:
     image: animegasan/phpnuxbill:latest
     container_name: phpnuxbill
     ports:

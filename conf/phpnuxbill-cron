@@ -1,0 +1,5 @@
+MAILTO=""
+# Expired
+0 * * * * cd /var/www/html/system && php cron.php
+# Reminder
+0 7 * * * cd /var/www/html/system && php cron_reminder.php
